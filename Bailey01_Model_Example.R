@@ -18,8 +18,8 @@
         reDose <- c(1e-13, 0.4*nDose, 0.8*nDose, 1.2*nDose, 
                     1.6*nDose, 1e-13, 0.4*nDose)
 
-        # Natural dose rate (1e-11 Gy/s).
-        ndr <- 1e-11   
+        # Natural dose rate (0.01 Gy/s).
+        ndr <- 0.01   
 
         # Laboratory dose rate (1 Gy/s).
         ldr <- 1     
